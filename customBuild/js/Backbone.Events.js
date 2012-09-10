@@ -104,9 +104,9 @@
 
     root: root,
 
-    splice: splice,
+    slice: slice,
 
-    _: _
+    splice: splice
 
   }
 

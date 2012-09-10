@@ -333,7 +333,7 @@
   // Mix in each Underscore method as a proxy to `Collection#models`.
   _.each(methods, function(method) {
     Collection.prototype[method] = function() {
-      var args = slice.call(arguments);
+      var args = Backbone.localProps.slice.call(arguments);
       args.unshift(this.models);
       return _[method].apply(_, args);
     };
