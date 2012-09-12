@@ -27,6 +27,7 @@
   </head>
 
   <body>
+    <a href="https://github.com/gfranko/backbone" target="_blank" id="fork-me"><img style="position: fixed;top: 0; right: 0; border: 0;z-index:999999;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub" alt="Fork me on GitHub"></a>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
@@ -35,14 +36,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Backbone.js</a>
-
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="../index.html">Home</a></li>
-              <li class="active"><a href="index.html" class="active">Custom Download</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+          <a class="brand" href="#">Backbone.js Custom Build</a>
         </div>
       </div>
     </div>
@@ -50,12 +44,12 @@
 <div class="container">
 
 <header class="jumbotron subhead" id="overview">
-  <h1>Customize and download</h1>
+  <h1>Customize and download Backbone.js</h1>
   <p class="lead"><a href="https://github.com/documentcloud/backbone/zipball/master">Download the full repository</a> or customize your entire <em>Backbone.js</em> build by selecting only the components that you need.</p>
   <div class="subnav">
     <ul class="nav nav-pills">
       <li><a href="#javascript-downloads">1. Choose and Generate JavaScript components</a></li>
-      <li><a href="#">2. Be Happy</a></li>
+      <li><a href="#be-happy">2. Be Happy</a></li>
     </ul>
   </div>
 </header>
@@ -70,20 +64,20 @@
       <small>Get just the JavaScript you need</small>
     </h1>
   </div>
-  <strong>Note</strong>: Backbone.Events is required for all modules.
+  <strong>Note</strong>: Backbone.Events is required for all "modules".
   <br /><br />
   <div class="row">
     <div class="span3">
-      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Events.js" title="Backbone.Events" data-content="A module that can be mixed in to any object, giving the object the ability to bind and trigger custom named events." readonly> Backbone.Events</label>
-      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.View.js" title="Backbone.View" data-content="Backbone views are almost more convention than they are code — they don't determine anything about your HTML or CSS for you, and can be used with any JavaScript templating library."> Backbone.View</label>
+      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Events.min.js" title="Backbone.Events" data-content="A module that can be mixed in to any object, giving the object the ability to bind and trigger custom named events." readonly> Backbone.Events</label>
+      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.View.min.js" title="Backbone.View" data-content="Backbone views are almost more convention than they are code — they don't determine anything about your HTML or CSS for you, and can be used with any JavaScript templating library."> Backbone.View</label>
     </div>
     <div class="span3">
-      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Model.js" title="Backbone.Model" data-content="Models are the heart of any JavaScript application, containing the interactive data as well as a large part of the logic surrounding it: conversions, validations, computed properties, and access control."> Backbone.Model</label>
-      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Collection.js" title="Backbone.Collection" data-content="Collections are ordered sets of models. You can bind 'change' events to be notified when any model in the collection has been modified, listen for 'add' and 'remove' events, fetch the collection from the server, and use a full suite of Underscore.js methods."> Backbone.Collection</label>
+      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Model.min.js" title="Backbone.Model" data-content="Models are the heart of any JavaScript application, containing the interactive data as well as a large part of the logic surrounding it: conversions, validations, computed properties, and access control."> Backbone.Model</label>
+      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Collection.min.js" title="Backbone.Collection" data-content="Collections are ordered sets of models. You can bind 'change' events to be notified when any model in the collection has been modified, listen for 'add' and 'remove' events, fetch the collection from the server, and use a full suite of Underscore.js methods."> Backbone.Collection</label>
     </div>
     <div class="span3">
-      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Router.js" title="Backbone.Router" data-content="Backbone.Router provides methods for routing client-side pages, and connecting them to actions and events. For browsers which don't yet support the History API, the Router handles graceful fallback and transparent translation to the fragment version of the URL."> Backbone.Router</label>
-      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Sync.js" title="Backbone.Sync" data-content="Backbone.sync is the function that Backbone calls every time it attempts to read or save a model to the server. By default, it uses (jQuery/Zepto).ajax to make a RESTful JSON request and returns a jqXHR."> Backbone.Sync</label>
+      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Router.min.js" title="Backbone.Router" data-content="Backbone.Router provides methods for routing client-side pages, and connecting them to actions and events. For browsers which don't yet support the History API, the Router handles graceful fallback and transparent translation to the fragment version of the URL."> Backbone.Router</label>
+      <label class="checkbox"><input checked="checked" type="checkbox" value="customBuild/js/Backbone.Sync.min.js" title="Backbone.Sync" data-content="Backbone.sync is the function that Backbone calls every time it attempts to read or save a model to the server. By default, it uses (jQuery/Zepto).ajax to make a RESTful JSON request and returns a jqXHR."> Backbone.Sync</label>
     </div>
   </div><!-- /row -->
   <br />
@@ -92,9 +86,64 @@
   <br /><br />
   <textarea class="source-area default sourceView" id="generated-javascript-source">// Minified source</textarea>
 </section>
-</div>
+<section id="be-happy">
+    <h1>
+        2. Be Happy
+        <small>Now that you are happy, read the FAQ's</small>
+    </h1>
+    <br /><br />
+    <h2>Frequently Asked Questions</h2>
+    <br />
+    <h3>Why would I want a custom build?  Isn't Backbone small anyway?</h3>
+    <p>
+      Yes, Backbone is an extremely small library for what it provides (less than 1500 lines of code <strong>with comments</strong>), but you still might not want everything it gives you.
+      <br /><br />
+      With custom builds, you could use the Backbone Events class object as a standalone pub/sub solution, or only use Backbone Views to organize all of your app's event handlers, or use Backbone Models to store all of your applications data client-side, etc (all while minimizing your file size).
+      <br /><br />
+      Backbone is incredible, so I wanted to make it even easier for people who aren't completely sold on using it, to only take what they want/need.
+    </p>
+    <br /><br />
+    <h3>How did you do this?  Voodoo magic?</h3>
+    <p>
+      No, anyone could have easily done this.  It took me about an hour.  I looked at the Backbone codebase and split up all of the Backbone Class Objects into their own files.
+      <br /><br />
+      Backbone by default is not set up in a modular way and instead heavily uses local variables all scoped under one Immediately Invoked Function Expression (like most libraries).  I had to make a few changes to the Backbone core to remove these local property dependencies so that they could be split into several files, but that was it.
+    </p>
+    <br /><br />
+    <h3>How do we know that you didn't introduce new bugs?</h3>
+    <p>
+      My changes were small enough to minimize the risk of introducing new bugs.  I also made sure that my modularized version of Backbone passed all of the Backbone unit tests.
+    </p>
+    <br /><br />
+    <h3>Why doesn't Backbone allow you to do custom builds by default?</h3>
+    <p>
+      I'm not sure.  Hopefully in the future Backbone will provide this option.  Until that happens, I will continue to support the project.
+    </p>
+    <br /><br />
+    <h3>What happens when Backbone upgrades to a different version?</h3>
+    <p>
+      Unfortunately, I will also have to upgrade my code to match the changes.
+    </p>
+    <br /><br />
+    <h3>Where can I find all of the Backbone Module Code?</h3>
+    <p>
+      You can find all of the Backbone modules inside of my <a href="https://github.com/gfranko/backbone/tree/master/customBuild/js" target="_blank">Backbone Fork</a>.
+    </p>
+    <br /><br />
+    <h3>How did you make this custom build UI?</h3>
+    <p>
+      I used <a href="https://github.com/gfranko/DownloadBuilder.js" target="_blank">DownloadBuilder.js</a> to make the custom build.  I also wrote that library (shameless plug)
+    </p>
 
-    </div><!--/.fluid-container-->
+</section>
+</div>
+<hr />
+      <footer class="navbar" style="margin:0 auto;width:25%;">
+        <p>
+            Created by <a href="https://github.com/gfranko" target="_blank">Greg Franko</a>
+        </p>
+      </footer>
+</div><!--/.fluid-container-->
     <div class="modal hide fade" id="myModal">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">×</button>
@@ -167,20 +216,6 @@
         });
 
     </script>
-
-    <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-30888305-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 
   </body>
 </html>

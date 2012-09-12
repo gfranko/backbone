@@ -23,7 +23,7 @@ body {
   padding-right: 0;
   padding-left: 0;
   margin-left: 20px;
-  float: right;
+  float: left;
   font-weight: bold;
   color: #000;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
@@ -111,7 +111,7 @@ hr.soften {
   margin-bottom: 9px;
 }
 .subhead h1 {
-  font-size: 54px;
+  font-size: 44px;
 }
 
 /* Subnav */
@@ -656,11 +656,11 @@ form.well {
   /* Adjust the jumbotron */
   .jumbotron h1,
   .jumbotron p {
-    text-align: center;
-    margin-right: 0;
+    text-align: left;
   }
   .jumbotron h1 {
-    font-size: 45px;
+    font-size: 32px;
+    padding-top: 50px;
     margin-right: 0;
   }
   .jumbotron p {
@@ -790,7 +790,8 @@ form.well {
 
   /* Scale down the jumbotron content */
   .jumbotron h1 {
-    font-size: 54px;
+    font-size: 32px;
+    padding-top: 50px;
   }
   .jumbotron p {
     margin-right: 0;
@@ -809,7 +810,8 @@ form.well {
 
   /* Scale down the jumbotron content */
   .jumbotron h1 {
-    font-size: 72px;
+    font-size: 32px;
+    padding-top: 50px;
   }
 
 }
