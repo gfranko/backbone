@@ -36,14 +36,14 @@ Unfortunately, I will also have to upgrade my code to match the changes.
 **Where can I find all of the Backbone Module Code?**
 
 
-You can find all of the Backbone modules inside of my Backbone Fork.
+You can find all of the Backbone modules inside of the customBuild folder.
 
 
 
 **How did you make this custom build UI?**
 
 
-I used DownloadBuilder.js to make the custom build. I also wrote that library (shameless plug)
+I used [DownloadBuilder.js](https://github.com/gfranko/DownloadBuilder.js) to make the custom build. I also wrote that library (shameless plug)
 
 ##Contributors
 Greg Franko
