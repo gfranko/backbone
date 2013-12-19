@@ -189,11 +189,13 @@
 
             });
 
-            var builder = new DownloadBuilder({ "location": "github", "author": "gfranko", "repo": "backbone", "branch": "modularBuilds" });
+            var builder = new DownloadBuilder({ "location": "github", "author": "gfranko", "repo": "backbone", "branch": "modularBuilds", "client_id": "6731ef26223b1eee4f57", "client_secret": "ef3a6f8e62671f774f5cbb658285a9ab16c3a317" });
 
             $("#javascript-generate").on("click", function() {
 
                 builder.buildURL($("#javascript-downloads input[type='checkbox']:checked"), "backbone", "javascript", function(data) {
+
+                  console.log('data', data);
 
                     $("#generated-javascript-source").text(data.content);
 
