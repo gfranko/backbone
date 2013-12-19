@@ -82,7 +82,7 @@
   </div><!-- /row -->
   <br />
   <a class="btn" href="#" data-bind="javascript-downloads" id="javascript-generate">Generate JavaScript</a>
-  <a class="btn btn-primary download-button" id="javascript-download" download="jquery.selectboxit.js">Download JavaScript</a>
+  <a class="btn btn-primary download-button" id="javascript-download">Download JavaScript</a>
   <br /><br />
   <textarea class="source-area default sourceView" id="generated-javascript-source">// Minified source</textarea>
 </section>
@@ -150,7 +150,7 @@
             <h3>Downloads</h3>
         </div>
         <div class="modal-body">
-            <a class="btn btn-large" href="#" target="_blank" data-lang="css" download="jquery.selectboxit.css">Download CSS</a>
+            <a class="btn btn-large" href="#" target="_blank" data-lang="css">Download CSS</a>
             <a class="btn btn-large" href="#" target="_blank" data-lang="javascript">Download JavaScript</a>
         </div>
     </div>
@@ -194,8 +194,6 @@
             $("#javascript-generate").on("click", function() {
 
                 builder.buildURL($("#javascript-downloads input[type='checkbox']:checked"), "backbone", "javascript", function(data) {
-
-                  console.log('data', data);
 
                     $("#generated-javascript-source").text(data.content);
 
